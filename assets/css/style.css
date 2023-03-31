@@ -127,7 +127,19 @@ body {
     margin: 70px 50px;
     border-radius: 20px;
     box-shadow: 0 0 20px grey;
+    transition: all 1s ease-in;
 }
+
+.gambar:hover {
+    scale: 105%;
+    cursor: pointer;
+}
+
+.gambar:hover h3,
+.gambar:hover p {
+    text-decoration: underline;
+}
+
 
 .gambar h3 {
     text-align: center;
@@ -144,7 +156,11 @@ body {
     height: 320px;
     object-fit: cover;
     border-radius: 10px;
+
 }
+
+
+
 
 /* FormC */
 
